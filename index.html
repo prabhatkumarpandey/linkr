@@ -10,7 +10,179 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css"
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f5efef;
+        padding: 10px 30px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 30px;
+        margin-left: 800px;
+        flex: 1;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: gray;
+        font-weight: 500;
+      }
+
+      .whatsapp-btn {
+        padding: 8px 16px;
+        background-color: white;
+        border: 2px solid white;
+        color: blue;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .whatsapp-btn:hover {
+        background-color: #e6f4ff;
+      }
+      .ivf-box {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+      }
+      .demo-box {
+        background-color: hwb(217 3% 76%); /* Blue background */
+        color: white; /* White text */
+        padding: 30px;
+        width: 400px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+      }
+
+      .demo-box h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+
+      .demo-box input[type="text"],
+      .demo-box input[type="email"],
+      .demo-box input[type="tel"],
+      .demo-box input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .demo-box input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      .demo-box label {
+        font-size: 14px;
+      }
+
+      .demo-box button {
+        background-color: white;
+        color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .demo-box button:hover {
+        background-color: #e6e6e6;
+      }
+      .ivf-clinic {
+        color: #007bff;
+      }
+      .ivf-clinic p {
+        color: gray;
+      }
+      .card-container {
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        gap: 20px;
+        justify-content: center;
+        background-color: #ebe5e5;
+        height: 260px;
+      }
+
+      .card {
+        width: 200px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 10px solid black;
+        background-color: white;
+      }
+      .card h3 {
+        margin-top: 0;
+        color: #007bff;
+      }
+
+      .card p {
+        color: #666;
+      }
+      .card-group1 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        background-color: lightgrey;
+      }
+      .card-group2 {
+        display: flex;
+        justify-content: center;
+        background-color: lightgrey;
+        margin-top: 5px;
+      }
+      .footer-box {
+        display: flex;
+        justify-content: center;
+        background-color: hwb(211 79% 12%);
+      }
+      .heading {
+        display: flex;
+        justify-content: center;
+      }
+      .heading h1 {
+        color: #007bff;
+      }
+      .copyright {
+        display: flex;
+        justify-content: center;
+      }
+      .copyright p {
+        align-items: center;
+      }
+      .card1 img {
+        height: 250px;
+        width: 400px;
+      }
+      .card-title {
+        color: #007bff;
+      }
+      .card-group {
+        display: flex;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar">
